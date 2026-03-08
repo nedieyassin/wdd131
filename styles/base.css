@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap');
 
+/* variables */
 :root {
     --color-primary: #0d3349;
     --color-accent: #006eb8;
