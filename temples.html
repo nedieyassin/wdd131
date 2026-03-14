@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="author" content="Yassin Nedie">
+    <meta name="description" content="TEMPLES | WDD131">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu" aria-label="Toggle navigation menu">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 5h16" />
+                <path d="M4 12h16" />
+                <path d="M4 19h16" />
+            </svg>
+        </button>
+        <nav class="navigation">
+            <a href="#" class="active">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="temple-grid">
+            <figure>
+                <img src="images/temple.jpg" alt="San Diego California Temple" loading="lazy">
+                <figcaption>San Diego California Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Salt Lake City Utah Temple" loading="lazy">
+                <figcaption>Salt Lake City Utah Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Provo City Center Temple" loading="lazy">
+                <figcaption>Provo City Center Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Washington D.C. Temple" loading="lazy">
+                <figcaption>Washington D.C. Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Nauvoo Illinois Temple" loading="lazy">
+                <figcaption>Nauvoo Illinois Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Rome Italy Temple" loading="lazy">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Tokyo Japan Temple" loading="lazy">
+                <figcaption>Tokyo Japan Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="London England Temple" loading="lazy">
+                <figcaption>London England Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Sydney Australia Temple" loading="lazy">
+                <figcaption>Sydney Australia Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Yassin Nedie | Lilongwe, Malawi</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
