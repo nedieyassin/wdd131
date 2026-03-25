@@ -145,11 +145,19 @@ header .tagline {
     flex-direction: column;
 }
 
-.weather-icon {
+.weather-icon-mobile {
     display: flex;
     justify-content: center;
     margin-bottom: var(--space-sm);
-    height: 60px;
+    height: 50px;
+}
+
+.weather-heading::after {
+    content: '⛅';
+    display: none;
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    vertical-align: middle;
 }
 
 
@@ -206,6 +214,10 @@ footer p:first-child {
 
     .weather-title {
         flex-direction: row;
+    }
+
+    .weather-icon-mobile {
+        display: none;
     }
 
     .weather-heading::after {
