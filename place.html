@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Discover Malawi - the Warm Heart of Africa. Explore its landscapes, culture, and weather." />
+    <title>Malawi - The Warm Heart of Africa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css" />
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Malawi</h1>
+        <p class="tagline">The Warm Heart of Africa</p>
+    </header>
+
+    <main>
+
+        <section class="hero-section">
+            <picture class="hero-picture">
+                <source srcset="images/malawi-big.webp" media="(min-width: 768px)" />
+                <img src="images/malawi-small.webp" alt="Lake Malawi shoreline" loading="eager" />
+            </picture>
+            <div class="card data-card">
+                <h2>Data</h2>
+                <ul>
+                    <li><span class="label">Capital:</span> Lilongwe</li>
+                    <li><span class="label">Region:</span> Southern Africa</li>
+                    <li><span class="label">Population:</span> ~20 million</li>
+                    <li><span class="label">Language:</span> Chichewa, English</li>
+                    <li><span class="label">Currency:</span> Malawian Kwacha</li>
+                    <li><span class="label">Known for:</span> Lake Malawi</li>
+                </ul>
+            </div>
+
+            <div class="card weather-card">
+                <div class="weather-title">
+                    <h2 class="weather-heading">Weather</h2>
+
+                    <div class="weather-icon">
+                        <img src="images/weather-icon.svg" alt="Sunny weather icon" />
+                    </div>
+                </div>
+
+                <ul>
+                    <li><span class="label">Location:</span> Lilongwe</li>
+                    <li><span class="label">Temperature:</span> <span id="temperature">--</span></li>
+                    <li><span class="label">Wind Speed:</span><span id="wind-speed">--</span></li>
+                    <li>
+                        <span class="label">Wind Chill:</span>
+                        <span id="wind-chill">--</span>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Yassin Nedie | Lilongwe, Malawi</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+</body>
+
+</html>
