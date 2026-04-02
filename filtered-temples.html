@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="author" content="Yassin Nedie">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Yassin Nedie. Home page Temple Album.">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="title">Temple Album</div>
+        <button id="menu" aria-label="Toggle navigation menu">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 5h16" />
+                <path d="M4 12h16" />
+                <path d="M4 19h16" />
+            </svg>
+        </button>
+        <nav class="navigation">
+            <a id="all" class="active">All</a>
+            <a id="old" href="#">Old</a>
+            <a id="new" href="#">New</a>
+            <a id="large" href="#">Large</a>
+            <a id="small" href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="temple-title">Home</h1>
+
+        <div class="temple-grid">
+          
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Yassin Nedie | Lilongwe, Malawi</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
