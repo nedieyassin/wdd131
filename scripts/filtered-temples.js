@@ -83,8 +83,7 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg",
         width: "400px",
         height: "250px"
-    },
-    // Add more temple objects here...
+    }, 
     {
         templeName: "Panamá City Panamá",
         location: "Ancon, Panamá, Panama",
