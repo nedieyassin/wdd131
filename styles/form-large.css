@@ -1,0 +1,14 @@
+@media (min-width: 641px) {
+    main {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    form {
+        width: 100%;
+        max-width: 560px;
+    }
+
+
+}
